@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lung Cancer Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lung Cancer Detection</h1>
+    <form id="uploadForm">
+      <input type="file" id="imageInput" accept="image/*" required>
+      <button type="submit">Predict</button>
+    </form>
+    <div id="resultContainer">
+      <img id="preview" src="#" alt="Image Preview" style="display:none;" />
+      <p id="prediction"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
